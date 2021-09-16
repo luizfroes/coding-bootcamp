@@ -35,5 +35,12 @@ header {
 }
 
 /* TODO: Use media query to change the width of the cards so they split into two columns at 992px or smaller*/
-
+@media screen and (max-width: 992px) {
+  main {
+    display: flex;
+  }
+  header {
+    background: #02360f;
+  }
+}
 /* TODO: Use media query to change the width of the cards so they are stacked on top of each other at 768px or smaller */
